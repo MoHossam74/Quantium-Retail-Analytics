@@ -62,14 +62,9 @@ The project is split into two main tasks, plus a final report for the Category M
 * Translating data findings into commercial recommendations for a non-technical audience
 
 ## 📄 Report
-The business presentation (`reports/QVI_Category_Manager_Presentation.pptx`) and the supporting Excel workbook (`reports/QVI_supporting_analysis.xlsx`) cover the full analysis, methodology and recommendations.
+The business presentation (`reports/QVI_Category_Manager_Presentation.pptx`)  cover the full analysis, methodology and recommendations.
 
-## ▶️ How to Run
-```bash
-pip install -r requirements.txt
-cd notebooks
-jupyter nbconvert --to notebook --execute quantium_retail_analytics.ipynb --inplace
-```
+
 
 ## ⚠️ Assumptions
 Trial stores (77, 86, 88) and trial dates (Feb-Apr 2019) come from the project brief, not from the data files. Analysis uses revenue only (no margin data).
